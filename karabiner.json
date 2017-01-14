@@ -10,8 +10,7 @@
                         "product_id": 595,
                         "vendor_id": 1452
                     },
-                    "ignore": false,
-                    "keyboard_type": 0
+                    "ignore": false
                 },
                 {
                     "disable_built_in_keyboard_if_exists": false,
@@ -21,8 +20,7 @@
                         "product_id": 545,
                         "vendor_id": 1452
                     },
-                    "ignore": false,
-                    "keyboard_type": 41
+                    "ignore": false
                 }
             ],
             "fn_function_keys": {
@@ -42,7 +40,12 @@
             "name": "Default profile",
             "selected": true,
             "simple_modifications": {
-                "caps_lock": "f18"
+                "caps_lock": "f18",
+                "grave_accent_and_tilde": "non_us_backslash"
+            },
+            "virtual_hid_keyboard": {
+                "caps_lock_delay_milliseconds": 0,
+                "keyboard_type": "ansi"
             }
         }
     ]
