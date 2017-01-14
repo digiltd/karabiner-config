@@ -3,7 +3,6 @@
         {
             "devices": [
                 {
-                    "disable_built_in_keyboard_if_exists": false,
                     "identifiers": {
                         "is_keyboard": true,
                         "is_pointing_device": false,
@@ -14,7 +13,6 @@
                     "keyboard_type": 0
                 },
                 {
-                    "disable_built_in_keyboard_if_exists": false,
                     "identifiers": {
                         "is_keyboard": true,
                         "is_pointing_device": false,
@@ -42,7 +40,9 @@
             "name": "Default profile",
             "selected": true,
             "simple_modifications": {
-                "caps_lock": "f19"
+                "caps_lock": "f18",
+                "grave_accent_and_tilde": "non_us_backslash",
+                "non_us_backslash": "grave_accent_and_tilde"
             }
         }
     ]
