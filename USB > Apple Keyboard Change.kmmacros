@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>470286660.63312</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>MacroActionType</key>
+						<string>Notification</string>
+						<key>SoundName</key>
+						<string></string>
+						<key>Subtitle</key>
+						<string></string>
+						<key>Text</key>
+						<string> %Trigger%</string>
+						<key>Title</key>
+						<string>%ExecutingMacro%</string>
+					</dict>
+					<dict>
+						<key>Asynchronously</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>ExecuteMacro</string>
+						<key>MacroUID</key>
+						<string>54CFBD7C-3914-4C19-9039-860A11921725</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>UseParameter</key>
+						<false/>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>498047966.03318501</real>
+				<key>ModificationDate</key>
+				<real>509537926.22036898</real>
+				<key>Name</key>
+				<string>USB &gt; Apple Keyboard Change</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>Attach</key>
+						<true/>
+						<key>MacroTriggerType</key>
+						<string>USBDevice</string>
+						<key>Name</key>
+						<string>Apple Keyboard</string>
+						<key>TargetType</key>
+						<string>Named</string>
+					</dict>
+					<dict>
+						<key>Attach</key>
+						<false/>
+						<key>MacroTriggerType</key>
+						<string>USBDevice</string>
+						<key>Name</key>
+						<string>Apple Keyboard</string>
+						<key>TargetType</key>
+						<string>Named</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>8AD2E418-0875-440C-A379-06A7901CCF2A</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Hardware</string>
+		<key>ToggleMacroUID</key>
+		<string>4A74769D-A677-4D69-AB39-FA31AE022F5B</string>
+		<key>UID</key>
+		<string>15D7B032-8A44-407E-AF17-25EFFE285897</string>
+	</dict>
+</array>
+</plist>
